@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: IBM Plex Sans Condensed, Arial, Helvetica, sans-serif, Open Sans;
+}
+body {
+  background: black;
+}
+nav {
+  display: flex;
+}
+.logo {
+  margin-left: 210px;
+  margin-top: 12px;
+  cursor: pointer;
+}
+.header {
+  background: black;
+  display: flex;
+}
+nav .options {
+  display: flex;
+  font-size: 17px;
+  margin-top: 30px;
+}
+nav .options h4 {
+  margin-right: 30px;
+  font-weight: 100;
+  cursor: pointer;
+  transition: 0.2s;
+}
+nav .options h4:hover {
+  color: red;
+  position: relative;
+}
+nav .options h4:after {
+  content: "";
+  position: absolute;    
+  background-color: red;
+  width: 0;
+  height: 3px;
+  bottom: -5px;
+  left: 0;
+  transition: 0.2s;
+}
+nav .options h4:hover:after {
+  width: 100%;
+}
+nav .options p{
+
+  margin-right: 30px;
+  font-weight: 100;
+  cursor: pointer;
+  transition: 0.2s;
+}
+nav .options i:hover{
+  color: red;
+
+}
+
+.section1 iframe {
+  width: 100%;
+  height: 98vh;
+}
+.section2 {
+  background-image: url(Images/Web-1920-–-1.png);
+  width: 100%;
+  height: 99vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section2 iframe {
+  width: 800px;
+  height: 450px;
+}
+.section2 .sec2in {
+  text-align: center;
+}
+.section2 .sec2in p {
+  margin-top: 20px;
+  font-size: 18px;
+  background: none;
+  padding: 0 200px;
+}
+.section3 .textandline {
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+}
+.section3 span {
+  font-size: 50px;
+  font-weight: 200;
+}
+.section3 .posters {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.section3 .posters .parent {
+  /* border: 1px solid white; */
+  width: 480px;
+  height: 480px;
+  margin: 25px;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.section3 .posters .parent .child {
+  width: 100%;
+  height: 100%;
+  transition: 1.2s;
+}
+.section3 .posters .parent .bg1 {
+  background-image: url(Images/Night-vision-Banner-.jpg);
+}
+.section3 .posters .parent .bg2 {
+  background-image: url(Images/Black-Hunter-mobile-banner-IPL-banner.jpg);
+}
+.section3 .posters .parent:hover .child {
+  transform: scale(1.2);
+}
+.section4 .textandline {
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+}
+.section4 span {
+  font-size: 50px;
+  font-weight: 200;
+}
+.section4 .posters {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.section4 .posters .parent {
+  width: 520px;
+  height: 380px;
+  margin: 25px;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.section4 .posters .parent .child {
+  width: 100%;
+  height: 100%;
+  transition: 1.2s;
+}
+.section4 .posters .parent .bg1 {
+  background-image: url(Images/Cycle1.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.section4 .posters .parent .bg2 {
+  background-image: url(Images/Cycle2.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.section4 .posters .parent:hover .child {
+  transform: scale(1.2);
+}
+.section4 .posters .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section4 .posters button {
+  background-color: rgb(215, 0, 0);
+  color: white;
+  font-size: 14px;
+  border: none;
+  padding: 14px 18px;
+  margin-top: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.section4 .posters .parent .bg3 {
+  background-image: url(Images/Cycle3.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.section4 .posters .parent .bg4 {
+  background-image: url(Images/Cycle4.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.section4 .posters .parent .bg5 {
+  background-image: url(Images/Cycle5.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.section4 .footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.section4 .footer .Copyright
+
+{
+  font-size: 10px;
+  font-weight: 100;
+}
+.section4 .footer .privacy
+{
+  font-size: 10px;
+  font-weight: 100;
+  color: rgb(163, 163, 163);
+
+}
+.section4 .footericon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  
+  
+  
+ 
+}
+.section4 .footericon i{
+  margin-right: 20px;
+  color: rgb(163, 163, 163);
+  cursor: pointer;
+}
+
+#menu-icon{
+  font-size: 3.6rem;
+  color: var(--text-color);
+  display: none;
+}
+
+/* BREAKPOINTS
+
+@media (max-width: 1200px) {
+
+  html {
+      font-size: 55%;
+  }
+}
+
+@media (max-width : 768px) {
+
+  #menu-icon{
+      display: block;
+  }
+}  */
